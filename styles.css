@@ -1,0 +1,43 @@
+body {
+  background-color: #7091E6; /* Background color outside the box */
+}
+
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.parent-container {
+  background-color: #FBE9D0; /* Background color inside the box */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.container {
+  text-align: center;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 5px;
+  margin: 20px auto;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  background-color: #244855;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.status {
+  font-size: 1.5em;
+  margin-top: 20px;
+}
